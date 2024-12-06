@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeroTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="animation.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <link rel="icon" href="images/logo.png" type="image/x-icon"  sizes="512x512">
+</head>
+<body>
+  <div id="preloader" class="loeader">
+<div class="loader">
+  <div class="box box0">
+    <div></div>
+  </div>
+  <div class="box box1">
+    <div></div>
+  </div>
+  <div class="box box2">
+    <div></div>
+  </div>
+  <div class="box box3">
+    <div></div>
+  </div>
+  <div class="box box4">
+    <div></div>
+  </div>
+  <div class="box box5">
+    <div></div>
+  </div>
+  <div class="box box6">
+    <div></div>
+  </div>
+  <div class="box box7">
+    <div></div>
+  </div>
+  <div class="ground">
+    <div></div>
+  </div>
+</div>
+</div>
+
+
+    <button id="scrollToTopBtn" class="scroll-to-top"><img src="images/up.png" alt=""></button>
+
+    <nav class="navbar animate__animated animate__fadeInDown">
+        <div class="logo"><img src="images/logo.png" class="logo" alt="Logo"></div>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home<span class="hr"></span></a></li>
+            <li><a href="#about">About<span class="hr"></span></a></li>
+            <li><a href="#packages">Packages<span class="hr"></span></a></li>
+            <li><a href="#gallery">Gallery<span class="hr"></span></a></li>
+            <li><a href="#contact">Contact<span class="hr"></span></a></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="home">
+
+        <div class="container hero">
+            <div class="text-column hero-text">
+                <h1 class="hero-h1 animate__animated animate__backInLeft">Welcome to Jero Tech</h1>
+                <p class="animate__animated animate__fadeInUp">Your trusted partner for sustainable solar solutions. Empowering homes and businesses to harness the power of the sun.</p>
+                <a href="#packages" class="btn animate__animated animate__fadeInBottomRight">Explore Packages</a>
+            </div>
+              <div class="video-container">
+                <video autoplay muted loop>
+                  <source src="vid/homevid.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- Left Column: Image -->
+            <div class="image-column about-image">
+                <img src="images/renewable.png" alt="About Jero Tech" style="width: 100% !important;">
+            </div>
+    
+            <!-- Right Column: Text -->
+            <div class="text-column about-text">
+                <h2 class="about-h2 animate__animated animate__fadeInUp">About Us</h2>
+                <p class="about-p ">
+                    At Jero Tech, we strive to make renewable energy accessible to everyone. 
+                    Join us in creating a sustainable future through cutting-edge solar technology. 
+                    Together, we can harness the power of the sun for a better tomorrow.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Packages Page -->
+    <section id="packages" class="packages">
+        <h2>Our Packages</h2>
+        <!-- Carousel Container -->
+        <div class="slider-container">
+            <div class="slider">
+                <!-- Package 1 -->
+                <div class="card" data-index="1">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title">Basic Solar Plan (Mini Package)</span>
+                      <p class="card_paragraph">
+                       Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Television</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Lighting</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Fan</span>
+                      </li>
+                    </ul>
+                    <div class="price">₦900,000</div>
+                    <a href="#contact" class="button">Get in Touch</a>
+                   
+                  </div>
+            
+                <!-- Package 2 -->
+                <div class="card" data-index="2">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title">Basic Solar Plan (Medium Package)</span>
+                      <p class="card_paragraph">
+                        Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Table Fridge</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Television</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Lighting</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Fan</span>
+                      </li>
+                    </ul>
+                    <div class="price">₦1.3 Million</div>
+                    <a href="#contact" class="button">Get in Touch</a>
+                  </div>
+            
+                <!-- Package 3 -->
+                <div class="card" data-index="3">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title">Basic Solar Plan (Standard Package)</span>
+                      <p class="card_paragraph">
+                        Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Fridge/Freezer</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Television</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Lighting</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Fan</span>
+                      </li>
+                    </ul>
+                    <div class="price">₦2.5 Million</div>
+                    <a href="#contact" class="button">Get in Touch</a>
+                  </div>
+            
+                <!-- Package 4 -->
+                   <div class="card" data-index="4">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title">Classic Solar Plan (Mini Package)</span>
+                      <p class="card_paragraph">
+                        Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">1HP Pump</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Fridge/Freezer</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Television</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Lighting</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Fan</span>
+                      </li>
+                    </ul>
+                    <div class="price">₦3 Million</div>
+                    <a href="#contact" class="button">Get in Touch</a>
+                  </div>
+                
+                <!-- Package 5 -->
+                <div class="card" data-index="5">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title">Classic Solar Plan (Standard Package)</span>
+                      <p class="card_paragraph">
+                        Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">1.5 AC</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">1HP Pump</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Fridge/Freezer</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Television</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Lighting</span>
+                      </li>
+                      <li class="card__list_item">
+                        <span class="check">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="check_svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="list_text">Fan</span>
+                      </li>
+                    </ul>
+                    <div class="price">₦5 Million</div>
+                    <a href="#contact" class="button">Get in Touch</a>
+                  </div>
+            
+                <!-- Package 6 -->
+                <div class="card" data-index="6">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title"> Classic Solar Plan (Standard Package)</span>
+                      <p class="card_paragraph">
+                        Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">1.5 AC</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">1HP Pump</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Fridge/Freezer</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Television</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Lighting</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Fan</span>
+                        </li>
+                      </ul>
+                      <div class="price">₦8 Million</div>
+                      <a href="#contact" class="button">Get in Touch</a>
+                  </div>
+            
+                <!-- Package 7 -->
+                <div class="card" data-index="7">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title">Standard Solar Plan (Mini Package - OFF GRID)</span>
+                      <p class="card_paragraph">
+                        Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">2 AC</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">1HP Pump</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Fridge/Freezer</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Television</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Lighting</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Fan</span>
+                        </li>
+                      </ul>
+                      <div class="price">₦12 Million</div>
+                      <a href="#contact" class="button">Get in Touch</a>
+                  </div>
+            
+                <!-- Package 8 -->
+                <div class="card" data-index="8">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title">Standard Solar Plan (Medium Package - OFF GRID)</span>
+                      <p class="card_paragraph">
+                        Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">3 AC</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">1HP Pump</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Fridge/Freezer</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Television</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Lighting</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Fan</span>
+                        </li>
+                      </ul>
+                      <div class="price">₦18 Million</div>
+                      <a href="#contact" class="button">Get in Touch</a>
+                  </div>
+
+                  <!-- package 9 -->
+                  <div class="card" data-index="9">
+                    <div class="card__border"></div>
+                    <div class="card_title__container">
+                      <span class="card_title">Standard Solar Plan (Standard Package - OFF GRID)</span>
+                      <p class="card_paragraph">
+                        Installation Guaranteed
+                      </p>
+                    </div>
+                    <hr class="line" />
+                    <ul class="card__list">
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">4 AC</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">1HP Pump</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Fridge/Freezer</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Television</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Lighting</span>
+                        </li>
+                        <li class="card__list_item">
+                          <span class="check">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="check_svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="list_text">Fan</span>
+                        </li>
+                      </ul>
+                      <div class="price">₦25 Million</div>
+                      <a href="#contact" class="button">Get in Touch</a>
+                  </div>
+            </div>
+            
+        </div>
+        <div class="menu">
+            <div class="menu-item" data-index="1">
+                <i class="icon">1</i>
+            </div>
+            <div class="menu-item" data-index="2">
+                <i class="icon">2</i>
+            </div>
+            <div class="menu-item" data-index="3">
+                <i class="icon">3</i>
+            </div>
+            <div class="menu-item" data-index="4">
+                <i class="icon">4</i>
+            </div>
+            <div class="menu-item" data-index="5">
+                <i class="icon">5</i>
+            </div>
+            <div class="menu-item" data-index="6">
+                <i class="icon">6</i>
+            </div>
+            <div class="menu-item" data-index="7">
+                <i class="icon">7</i>
+            </div>
+            <div class="menu-item" data-index="8">
+                <i class="icon">8</i>
+            </div>
+            <div class="menu-item" data-index="9">
+                <i class="icon">9</i>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Page -->
+    <section id="contact">
+        <div class="contact-box">
+          <div class="contact-links">
+            <h2>CONTACT</h2>
+            <div class="contact-info">
+              
+              <div class="head-office">
+                  <h3>Head Office</h3>
+                  <p><strong>Address:</strong> Plot AT51/AT52 Apo Mechanic New Site by First Gate Peugeot Line, FCT-Abuja, Nigeria</p>
+                  <p><strong>Phone:</strong> <a href="https://wa.me/1234567890" style="color: rgb(0, 255, 13); text-decoration: none;">+234906944959</a></p>
+                  <p><strong>Email:</strong> omokhomiongideon@gmail.com</p>
+              </div>
+              
+              <div class="branch-office">
+                  <h3>Branch Office</h3>
+                  <p><strong>Address:</strong> 5B Edion Street, Ekpoma, Edo State</p>
+                  <p><strong>Phone:</strong> <a href="tel:+2347061871543"  style="color: rgb(255, 255, 255); text-decoration: none;">+2347061871543</a></p>
+                  <p><strong>Email:</strong> omokhomiongideon@gmail.com</p>
+              </div>
+          </div>
+            <div class="links">
+              <div class="link">
+                <a href="https://www.facebook.com/profile.php?id=100093296612944"><img src="images/facebook.png" alt="Facebook"></a>
+              </div>
+              <div class="link">
+                <a href="https://wa.me/1234567890"><img src="images/whatsapp.png" alt="whatsapp"></a>
+              </div>
+              <div class="link">
+                <a href="mailto:omokhomiongideon@gmail.com"><img src="images/email.png" alt="email"></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-wrapper">
+            <form  action="https://formspree.io/f/xzzbyppb" method="POST">
+              <div class="form-item">
+                <input type="text" name="sender" required>
+                <label>Name:</label>
+              </div>
+              <div class="form-item">
+                <input type="text" name="email" required>
+                <label>Email:</label>
+              </div>
+              <div class="plan-selection">
+                <select id="plan-select" class="plan-select">
+                    <option value="" disabled selected>Choose a Plan</option> <!-- Default option -->
+                    <option value="basic-mini">Basic Mini: ₦900,000</option>
+                    <option value="basic-medium">Basic Medium: ₦1.3 Million</option>
+                    <option value="basic-standard">Basic Standard: ₦2.5 Million</option>
+                    <option value="classic-mini">Classic Mini: ₦3 Million</option>
+                    <option value="classic-standard-1">Classic Standard 1: ₦5 Million</option>
+                    <option value="classic-standard-2">Classic Standard 2: ₦8 Million</option>
+                    <option value="standard-mini">Standard Mini: ₦12 Million</option>
+                    <option value="standard-medium">Standard Medium: ₦18 Million</option>
+                    <option value="standard-standard">Standard Standard: ₦25 Million</option>
+                </select>
+            </div>
+              <div class="form-item">
+                <textarea class="" name="message" required></textarea>
+                <label>Message:</label>
+              </div>
+              <button type="submit" class="submit-btn">Send</button>  
+            </form>
+          </div>
+        </div>
+      </section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <h2 class="gallery-title">GALLERY</h2>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="images/IMG-20241128-WA0010.jpg" alt="Work 1">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241128-WA0011.jpg" alt="Work 2">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241128-WA0012.jpg" alt="Work 3">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241128-WA0013.jpg" alt="Work 4">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241128-WA0014.jpg" alt="Work 5">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241128-WA0018.jpg" alt="Work 6">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241128-WA0019.jpg" alt="Work 7">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241128-WA0021.jpg" alt="Work 8">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0024.jpg" alt="Work 9">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0023.jpg" alt="Work 10">
+    </div><div class="gallery-item">
+      <img src="images/IMG-20241201-WA0025.jpg" alt="Work 11">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0026.jpg" alt="Work 12">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0027.jpg" alt="Work 13">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0028.jpg" alt="Work 14">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0029.jpg" alt="Work 15">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0030.jpg" alt="Work 16">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0032.jpg" alt="Work 18">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0033.jpg" alt="Work 19">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0034.jpg" alt="Work 20">
+    </div>
+    <div class="gallery-item">
+      <img src="images/IMG-20241201-WA0035.jpg" alt="Work 21">
+    </div>
+
+  </div>
+</section>
+
+   <!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+      <p>&copy; 2024 Jero Tech. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100093296612944"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://wa.me/1234567890"><img src="images/whatsapp.png" alt="whatsapp"></a>
+        <a href="mailto:omokhomiongideon@gmail.com"><img src="images/email.png" alt="email"></a>
+      </div>
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script src="nav.js"></script>
+</body>
+</html>
